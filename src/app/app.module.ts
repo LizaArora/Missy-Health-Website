@@ -17,6 +17,8 @@ import { SingleCategoryComponent } from './pages/single-category/single-category
 import { HomeComponent } from './pages/home/home.component';
 import { SubscriptionFormComponent } from './subscription-form/subscription-form.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { ReportsComponent } from './reports/reports.component';
+import { ProductsListComponent } from './layouts/products-list/products-list.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     SingleCategoryComponent,
     HomeComponent,
     SubscriptionFormComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    ReportsComponent,
+    ProductsListComponent
   ],
   imports: [
     BrowserModule,
